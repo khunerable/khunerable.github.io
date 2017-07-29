@@ -1,0 +1,20 @@
+Filemanager Fileupload
+
+AUTHOR : Ice-cream
+
+Dork :
+
+inurl:/clients/source/
+
+BUG :
+assets/backend/tinymce/plugins/filemanager/dialog.php
+
+POC :
+
+[-]Upload Ur Backdoor JPG
+[-]Change Extension JPG to PHP,PHTML,PJPG Use Tamper,Live Http Headers Or Burpsuite
+[-]How To Search Ur Shell ? CTRL + U, Dir Backdoor In There
+[-]Done
+
+DEFAULT DIR SHELL :
+site.com/[PATH]/clients/source/shell.php
