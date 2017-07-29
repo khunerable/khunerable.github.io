@@ -1,0 +1,8 @@
+Laravel file .env
+
+DORK :
+intext:"index of" ".env"
+AND Many More
+
+Example :
+http://www.kansaicoatings.co.id/.env
