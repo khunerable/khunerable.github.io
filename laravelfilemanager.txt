@@ -1,0 +1,30 @@
+#####################################################################################################################
+#AUTHOR EXPLOIT : Ice-cream - Grac3                                                                                 #
+#THNKS FOR      : Sanjungan Jiwa Team - Surabaya Blackhat - Typical Idiot Security - Pak Haxor - Konslet - Lastc0de #
+#####################################################################################################################
+LARAVEL FILE MANAGER
+
+DORK :
+
+inurl:/photos/shares/ site:kz
+
+( and many more )
+
+example :
+
+http://www.astyk-k.kz/laravel-filemanager
+
+nothing
+
+An error has occured: Internal Server Error
+
+but u can bypass upload 2 times
+
+look ..
+
+result :
+
+http://www.astyk-k.kz/photos/shares/1.php
+
+FOR VIDEO
+https://youtu.be/AApjlMlqekk
