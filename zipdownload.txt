@@ -1,0 +1,14 @@
+backup zip download
+
+AUTHOR : ice-cream
+THNKS  : IndoXploit - Sanjungan Jiwa - Surabaya Blackhat - Typical Idiot Security
+
+site:go.id intext:"pengadilan"
+and many more..
+
+EXAMPLE :
+http://pn-tegal.go.id/jdih.zip
+http://pn-pasirpengaraian.go.id/sipp.zip
+
+NB :
+If u was download that backup, u can look config file from that website
