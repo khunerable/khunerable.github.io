@@ -1,0 +1,21 @@
+Faveo Helpdesk Exploit
+
+#Author : Ice-cream
+#Date   : 07-04-2017
+#tested : Linux ( Backbox ) , Windows 7
+#thnks  : Grac3 - Pak Haxor - Konslet - Lastc0de - Sanjungan Jiwa - Typical Idiot Security
+
+dork :
+intext:"by Faveo" "Submit a Ticket"
+
+POC :
+[-]register
+[-]check ur email,and click link activation
+[-]login
+[-]go to profile ( http://helpdesk.intisolusindojaya.com/public/client-profile )
+[-]upload ur pic ( real pic dont use backdoor extension jpg )
+[-]change extension jpg to php and change that jpg language or what ever i not understand about that to ur uploader or ur backdoor script use burpsuite
+[-]if done.. click right on ur profile picture and copy link location
+
+result :
+http://SITE.com/PATH/media/profilepic/default.php
