@@ -18,4 +18,4 @@ POC :
 [-]if done.. click right on ur profile picture and copy link location
 
 result :
-http://SITE.com/PATH/media/profilepic/default.php
+http://SITE.com/PATH/media/profilepic/urshell.php
