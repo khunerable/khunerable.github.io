@@ -8,6 +8,6 @@ https://www.comune.palermo.it/js/server/uploads/
 
 POC
 [-]go to http://www.makarizo.com/coco.php
-[-]input URL victim and input POST File qqfile
+[-]input URL victim and input POST File "qqfile"
 [-]click "kunci target" and upload ur backdoor
 [-]ur file in http://sitevictim.com/[PATH]/server/uploads/urbackdoor.php
