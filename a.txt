@@ -1,0 +1,15 @@
+###############################################################################################################
+# author : khunerable
+# contact : line @khunerab.le
+# home : http://www.phpjabbers.com/
+# dork : USE UR BRAIN
+# BUG : /core/third-party/filemanager/dialog.php
+# FILE UPLOADED : php.accdb
+# EXAMPLE SITE : http://northhillscommunity.org/admin/core/third-party/filemanager/dialog.php
+# RESULT : http://northhillscommunity.org/admin/app/web/upload/tinymce-source/galer.php.accdb
+#
+# NB : INPUT "GIF89;a" in ur shell and rename "php.accdb"
+#
+# greetz : Mr.DellationX196 - SPEEDY-03 - R0cky_n00bz - Konslet - Pak Haxor - Lastc0de
+#          Typical Idiot Security - All Indonesian Defacer
+###############################################################################################################
