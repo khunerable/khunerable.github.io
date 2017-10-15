@@ -1,0 +1,11 @@
+inurl:/registration/create intext:"TEAMS" "LATEST MATCHES"
+
+poc :
+[-]register
+[-]edit profile
+[-]upload my shell jpg ( tamper or burpsuite )
+[-]if error.. you back to edit profile and refresh page..
+[-]copy image location
+
+example
+http://www.crea-esports.at/
