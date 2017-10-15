@@ -1,0 +1,24 @@
+Exploit Title   : TINYMCE imgupload bypass input submit
+Author          : ice-cream - khunerable
+Vendor Homepage : -
+Vendor Github   : -
+Date            : 20 sep 2017
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+Dork :
+  inurl:/storage/uploads/tinymce/
+
+Poc :
+  [-]INSPECT ELEMENT
+  [-]TAMBAHIN "<input type="submit" value="upload" />" DI BAGIAN "<input id="img" 
+  [-]UPLOAD GAMBAR ASLI
+  [-]LISTEN PAKE BURPSUITE.. SISIPIN SHELL LO DI GAMBAR TSB
+  [-]UBAH JPG KE PHP
+  [-]KALO UDAH LO BISA LIAT DI INSPECT ELEMENTNYA DMNA PATH SI SHELL DI BAGIAN 
+                        "<body onload="top.tinymce.activeEditor.insertContent"
+                       
+Screenshot :
+  https://scontent.fcgk10-1.fna.fbcdn.net/v/t1.0-9/22045897_1903161833338387_2418347860163243147_n.jpg?oh=471f36bb2dc2837ade45ae1c6bc84262&oe=5A3D5DEB
+  
+THNKS TO :
+  All member typical idiot security - Gr4c3 - Konslet - Pak Haxor - Lastc0de - All Indonesian Hacker
