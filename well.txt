@@ -1,6 +1,9 @@
+Exploit Title   : Contentify Register And Upload Backdoor
 Author          : ice-cream - khunerable
 Vendor Homepage : http://www.contentify.org/
 Vendor Github   : https://github.com/Contentify
+Date            : 14 oct 2017
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
 
 dork :
   inurl:/registration/create intext:"TEAMS" "LATEST MATCHES"
