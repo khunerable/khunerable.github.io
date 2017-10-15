@@ -1,6 +1,6 @@
-author     : ice-cream
-author cms : http://www.contentify.org/
-github     : https://github.com/Contentify
+Author          : ice-cream - khunerable
+Vendor Homepage : http://www.contentify.org/
+Vendor Github   : https://github.com/Contentify
 
 dork :
   inurl:/registration/create intext:"TEAMS" "LATEST MATCHES"
