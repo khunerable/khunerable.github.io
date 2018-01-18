@@ -1,0 +1,17 @@
+Exploit Title   : ImageManager File Upload
+Author          : ice-cream - khunerable
+Vendor Info     : http://trac.xinha.org/wiki/ImageManager
+Vendor Github   : -
+Date            : 11 Jan 2018
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+--------------------------------------------------------------
+
+Dork : inurl:/ImageManager/demo_images/ ( Use Ur Brain )
+
+Bug : /plugins/ImageManager/manager.php
+
+POC :
+[-] Upload Ur Backdoor JPG extension
+[-] Change Extension JPG to PHP use Burpsuite or TamperData
+[-] Click Right and Copy Image Location on ur file
+[-] Congratz... u can access full that website
