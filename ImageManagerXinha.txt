@@ -1,4 +1,4 @@
-Exploit Title   : ImageManager File Upload
+Exploit Title   : Xinha ImageManager Plugins File Upload
 Author          : ice-cream - khunerable
 Vendor Info     : http://trac.xinha.org/wiki/ImageManager
 Vendor Github   : -
