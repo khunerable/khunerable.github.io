@@ -19,7 +19,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Fi
 Accept: application/json, text/javascript, */*; q=0.01
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://www.jac-pharmapxi.fr/application/assets/admin/js/tinymce/plugins/image/image.php
+Referer: http://azyb.az/admin/media/tinymce/plugins/image/image.php
 X-Requested-With: XMLHttpRequest
 Cookie: PHPSESSID=17f30bf76e744845c82493b336abb7e5
 Connection: close
