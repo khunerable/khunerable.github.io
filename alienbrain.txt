@@ -12,6 +12,9 @@ Proof Of Concept
 [-] use parameter "files" for form_upload and use "files[]" for ajax_upload_file.php
 [-] ur access backdoor placed on site/assets/vendor/jquery.filer/uploads/namefile.php
 
+DORK :
+/vendor/hamburgers/hamburgers.min.css
+
 --------------------------------------------------------------------------------------
 
 never stop use fucking brain.
