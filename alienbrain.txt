@@ -1,0 +1,19 @@
+Exploit Title   : Jquery Filer Plugins File Upload
+Author          : -
+Vendor Homepage : -
+Vendor Github   : -
+Date            : 21 March 2019
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+Proof Of Concept
+[-] site/assets/vendor/jquery.filer/
+[-] upload there site/assets/vendor/jquery.filer/examples/default/php/form_upload.php
+[-] if u cant find form_upload.php, u can upload on there site/assets/vendor/jquery.filer/examples/dragdrop/php/ajax_upload_file.php
+[-] use parameter "files" for form_upload and use "files[]" for ajax_upload_file.php
+[-] ur access backdoor placed on site/assets/vendor/jquery.filer/uploads/namefile.php
+
+--------------------------------------------------------------------------------------
+
+never stop use fucking brain.
+
+thnks : zerobyte, anoaghost, typical idiot security.
