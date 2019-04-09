@@ -9,7 +9,7 @@ Proof Of Concept
 [-] site/assets/vendor/jquery.filer/
 [-] upload there site/assets/vendor/jquery.filer/examples/default/php/form_upload.php
 [-] if u cant find form_upload.php, u can upload on there site/assets/vendor/jquery.filer/examples/dragdrop/php/ajax_upload_file.php
-[-] use parameter "files" for form_upload and use "files[]" for ajax_upload_file.php
+[-] use parameter "files" for form_upload.php and use "files[]" for ajax_upload_file.php
 [-] ur access backdoor placed on site/assets/vendor/jquery.filer/uploads/namefile.php
 
 DORK :
