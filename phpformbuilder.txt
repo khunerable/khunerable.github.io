@@ -12,6 +12,7 @@ Proof Of Concept
 DORK :
 USE UR FUCKING BRAIN!
 
+NB : dont too much use ../ its detected Local File inclusion!
 --------------------------------------------------------------------------------------
 
 never stop use fucking brain.
