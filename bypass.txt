@@ -1,0 +1,15 @@
+laravel phpunit rce
+
+PROLOG :
+[-] bug on vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[-] use curl or burpsute for execute the file vulnerable
+
+POC :
+[-] access the file vulnerable on site target.
+ example : http://click.ecc.ac.jp/ecc/fashion_club/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[-] use curl or reload then listening use burpsuite then u can inject the php code there like <?php system(' -ls la'); or etc
+[-] if that site vuln, the target react w/ php code that you run.
+EPILOG :
+[-] when u cant upload file there, u can search dir w/  readeable permission.
+[-] or if u can't use wget or curl or etc, u can use this.
+https://pastebin.com/raw/7cRWYMFr
