@@ -1,0 +1,26 @@
+Exploit Title   : Email Marketing Application Laravel File Upload 
+Author          : Khunerable - ./c0c0
+Vendor Homepage : https://www.acellemail.com
+Vendor Github   : -
+Date            : 13 September 2019
+Tested on       : Ubuntu 16.04.2 LTS ( BackBox ), Windows 7
+
+POC :
+[-] register user and check activation on your mail
+[-] login then go to site.com/templates/upload
+[-] upload zip examples templates w/ backdoor inputed
+[-] check ur templates,and copy images location on ur templates
+[-] if u input backdoor on templates zip behind dir images, there access ur backdoor
+
+SS :
+http://khunerable.net/images/1.png
+http://khunerable.net/images/2.png
+
+DORK : 
+use ur brain
+
+for example zip :
+http://khunerable.net/images/newsletter-template-green.zip
+
+thnks to :
+Zerobyte.id - Typical Idiot Security - Indonesian Code Party - Linuxsec.org
