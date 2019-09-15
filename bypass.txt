@@ -12,4 +12,4 @@ POC :
 EPILOG :
 [-] when u cant upload file there, u can search dir w/  readeable permission.
 [-] or if u can't use wget or curl or etc, u can use this.
-https://pastebin.com/raw/7cRWYMFr
+https://khunerable.net/images/3x.txt
