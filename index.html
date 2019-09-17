@@ -23,14 +23,173 @@ span:after {content:"_";opacity: 0;animation: cursor 1s infinite;}
 </style>
 <body>
 <pre><font color="seashell"><left>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+<style class="cp-pen-styles">@import url('https://fonts.googleapis.com/css?family=Poppins:900&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #000;
+}
+
+#wrapper {
+   height: 100vh;
+   display: flex;
+   justify-content: center;   
+   align-items: center;
+}
+
+.channel-split-wrapper {
+   position: relative;
+   font-size: 64px;
+}
+
+.channel-split-static {
+   opacity: 0;
+}
+
+.channel-split {
+   position: absolute;
+   top: 0;
+   left: 0;
+   mix-blend-mode: difference;   
+}
+
+.channel-split-red {
+   color: #f00;
+   -webkit-animation: ANIMATE-RED 2000ms infinite;
+           animation: ANIMATE-RED 2000ms infinite;
+}
+
+.channel-split-green {
+   color: #0f0;
+}
+
+.channel-split-blue {
+   color: #00f;
+   -webkit-animation: ANIMATE-BLUE 2000ms infinite;
+           animation: ANIMATE-BLUE 2000ms infinite;
+}
+
+@-webkit-keyframes ANIMATE-RED {
+   0% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+   50% {
+      -webkit-transform: translate(5px, 5px);
+              transform: translate(5px, 5px)
+   }
+   100% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+}
+
+@keyframes ANIMATE-RED {
+   0% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+   50% {
+      -webkit-transform: translate(5px, 5px);
+              transform: translate(5px, 5px)
+   }
+   100% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+}
+
+@-webkit-keyframes ANIMATE-BLUE {
+   0% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+   50% {
+      -webkit-transform: translate(-5px, -5px);
+              transform: translate(-5px, -5px)
+   }
+   100% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+}
+
+@keyframes ANIMATE-BLUE {
+   0% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+   50% {
+      -webkit-transform: translate(-5px, -5px);
+              transform: translate(-5px, -5px)
+   }
+   100% {
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0)
+   }
+}</style></head><body>
 <div id="wrapper">
-   <div id="text" class="channel-split-wrapper"> ____  __.__                                    ___.   .__          
+<div id="text" class="channel-split-wrapper"><span class="channel-split-static">
+ ____  __.__                                    ___.   .__          
 |    |/ _|  |__  __ __  ____   ________________ \_ |__ |  |   ____  
 |      < |  |  \|  |  \/    \_/ __ \_  __ \__  \ | __ \|  | _/ __ \ 
 |    |  \|   Y  \  |  /   |  \  ___/|  | \// __ \| \_\ \  |_\  ___/ 
 |____|__ \___|  /____/|___|  /\___  >__|  (____  /___  /____/\___  >
         \/    \/           \/     \/           \/    \/          \/ 
                               Zer0byte.id - Typical Idiot Security
+ </span><span class="channel-split channel-split-red">
+  ____  __.__                                    ___.   .__          
+|    |/ _|  |__  __ __  ____   ________________ \_ |__ |  |   ____  
+|      < |  |  \|  |  \/    \_/ __ \_  __ \__  \ | __ \|  | _/ __ \ 
+|    |  \|   Y  \  |  /   |  \  ___/|  | \// __ \| \_\ \  |_\  ___/ 
+|____|__ \___|  /____/|___|  /\___  >__|  (____  /___  /____/\___  >
+        \/    \/           \/     \/           \/    \/          \/ 
+                              Zer0byte.id - Typical Idiot Security
+</span><span class="channel-split channel-split-green">
+  ____  __.__                                    ___.   .__          
+|    |/ _|  |__  __ __  ____   ________________ \_ |__ |  |   ____  
+|      < |  |  \|  |  \/    \_/ __ \_  __ \__  \ | __ \|  | _/ __ \ 
+|    |  \|   Y  \  |  /   |  \  ___/|  | \// __ \| \_\ \  |_\  ___/ 
+|____|__ \___|  /____/|___|  /\___  >__|  (____  /___  /____/\___  >
+        \/    \/           \/     \/           \/    \/          \/ 
+                              Zer0byte.id - Typical Idiot Security
+ </span><span class="channel-split channel-split-blue">
+   ____  __.__                                    ___.   .__          
+|    |/ _|  |__  __ __  ____   ________________ \_ |__ |  |   ____  
+|      < |  |  \|  |  \/    \_/ __ \_  __ \__  \ | __ \|  | _/ __ \ 
+|    |  \|   Y  \  |  /   |  \  ___/|  | \// __ \| \_\ \  |_\  ___/ 
+|____|__ \___|  /____/|___|  /\___  >__|  (____  /___  /____/\___  >
+        \/    \/           \/     \/           \/    \/          \/ 
+                              Zer0byte.id - Typical Idiot Security
+</span></div>
+</div>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script id="rendered-js">
+          function channelSplit(elem) {
+  if (elem) {
+    const inner = elem.innerHTML;
+    elem.innerHTML = "";
+
+    const spanHidden = document.createElement("span");
+    spanHidden.classList.add("channel-split-static");
+    spanHidden.innerHTML = inner;
+    elem.appendChild(spanHidden);
+
+    ["red", "green", "blue"].forEach(x => {
+      const span = document.createElement("span");
+      span.classList.add("channel-split");
+      span.classList.add(`channel-split-${x}`);
+      span.innerHTML = inner;
+      elem.appendChild(span);
+    });
+  }
+}
+
+channelSplit(document.getElementById("text"));
+          //# sourceURL=pen.js
+        </script>
+</body>
                                                  </div>
 </div>
                More Exploit~</br>
