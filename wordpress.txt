@@ -11,7 +11,7 @@ DORK :
 inurl:/wp-content/plugins/insert-or-embed-articulate/
 
 SS:
-https://khunerable.net/images/wordpress.jpg
+https://khunerable.net/images/70256562_129728355060689_1409106120445788160_n.jpg
 
 REFERENCE :
 https://cxsecurity.com/issue/WLB-2019060137
